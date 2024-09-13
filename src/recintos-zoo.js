@@ -89,3 +89,5 @@ class RecintosZoo {
         // Calcula o espaço extra se houver mais de uma espécie
         const numEspéciesExistentes = new Set(recinto.animais.map(a => a.toUpperCase())).size;
         const espacoExtra = numEspéciesExistentes > 0 ? 0 : 0; // Aqui deve ser 0, porque não há espa
+    }
+}
